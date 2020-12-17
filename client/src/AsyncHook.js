@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-export default function AsyncHooks() {
+export default function AsyncHook() {
   const [search, setSearch] = useState('');
 
   return (
